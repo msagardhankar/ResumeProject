@@ -1,3 +1,105 @@
-#body-header {
-  background-image: url("https://wallpapercave.com/wp/wp7102416.jpg");
+* {
+  margin: 0;
+  padding: 0;
 }
+
+#body-header {
+  width: 100vw;
+  height: 70vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(108, 160, 255, 0.7)), to(rgba(108, 160, 255, 0.7))), url("https://i.pinimg.com/originals/dc/8d/3d/dc8d3d5921d989a7964455f2547adab1.jpg");
+  background: linear-gradient(rgba(108, 160, 255, 0.7), rgba(108, 160, 255, 0.7)), url("https://i.pinimg.com/originals/dc/8d/3d/dc8d3d5921d989a7964455f2547adab1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 0% 60%;
+}
+
+#body-header nav {
+  padding-top: 1vh;
+}
+
+#body-header nav .horizontal-list li a:hover {
+  color: #ebebeb;
+  -webkit-transition: color 0.5s, border-bottom 2s;
+  transition: color 0.5s, border-bottom 2s;
+  border-bottom: 1px solid lightgrey;
+}
+
+#body-header .name-social-links {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+#body-header .name-social-links h1 {
+  color: white;
+  font-size: 4.5rem;
+  font-family: "Open Sans";
+  text-align: center;
+  vertical-align: middle;
+  letter-spacing: 0.1rem;
+  font-weight: 700;
+}
+
+#body-header .name-social-links ul {
+  margin-top: 5vh;
+}
+
+p {
+  font-size: 3rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.horizontal-list {
+  margin: 0;
+  list-style: none;
+}
+
+.horizontal-list li {
+  display: inline-block;
+  margin-right: 1.3rem;
+}
+
+.horizontal-list li:last-child {
+  margin-right: 0;
+}
+
+.horizontal-list li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.social-icons li a i {
+  font-size: 2rem;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.social-icons li a i:hover {
+  -webkit-box-shadow: 0px 0px 6px 4px white;
+          box-shadow: 0px 0px 6px 4px white;
+  -webkit-transition: -webkit-box-shadow 0.25s;
+  transition: -webkit-box-shadow 0.25s;
+  transition: box-shadow 0.25s;
+  transition: box-shadow 0.25s, -webkit-box-shadow 0.25s;
+}
+
+#profile-photo {
+  height: 26vw;
+  width: 25vw;
+  margin: -11rem auto 0;
+}
+
+#profile-photo img {
+  height: 100%;
+  width: 100%;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=style.css.map */
